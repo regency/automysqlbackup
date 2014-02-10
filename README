@@ -22,6 +22,11 @@ offline regularly for best protection.
 Happy backing up...
 
 
+.. REQUIRED CONFIG SETTING
+-------------------------
+CONFIG_db_exclude=( 'information_schema' , 'performance_schema' , 'mysql' )
+
+
 
 .. INSTALL
 -------------------------
